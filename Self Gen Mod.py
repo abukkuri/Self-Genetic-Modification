@@ -26,7 +26,7 @@ nstrat_macro = []
 t_macro = []
 extinct = []
 
-def drug_death(current_strat,m1): #here, if death due to drug is >dd_thres, we won't transition into 2N+
+def drug_death(current_strat,m1):
         return m1/(l1+b1*current_strat)
 
 def run_this():
